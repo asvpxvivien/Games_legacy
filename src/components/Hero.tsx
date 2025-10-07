@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "../assets/hero-bg.jpg";
 
 export const Hero = () => {
   return (

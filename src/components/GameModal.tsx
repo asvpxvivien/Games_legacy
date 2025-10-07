@@ -1,9 +1,9 @@
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { Game } from "@/data/games";
-import { Badge } from "@/components/ui/badge";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./ui/dialog";
+import { Game } from "../data/games";
+import { Badge } from "./ui/badge";
 import { ExternalLink, Play, Heart, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { useFavorites } from "@/contexts/FavoritesContext";
+import { Button } from "./ui/button";
+import { useFavorites } from "../contexts/FavoritesContext";
 
 interface GameModalProps {
   game: Game | null;

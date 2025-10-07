@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { Game } from "@/data/games";
-import { Badge } from "@/components/ui/badge";
+import { Game } from "../data/games";
+import { Badge } from "./ui/badge";
 import { Sparkles } from "lucide-react";
 
 interface GameCardProps {

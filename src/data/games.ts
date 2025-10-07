@@ -13,14 +13,14 @@ export interface Game {
   tags: string[];
 }
 
-import witcher3Cover from "@/assets/covers/witcher3.jpg";
-import bloodborneCover from "@/assets/covers/bloodborne.jpg";
-import botwCover from "@/assets/covers/botw.jpg";
-import persona5Cover from "@/assets/covers/persona5.jpg";
-import gow2018Cover from "@/assets/covers/gow2018.jpg";
-import eldenringCover from "@/assets/covers/eldenring.jpg";
-import bg3Cover from "@/assets/covers/bg3.jpg";
-import hadesCover from "@/assets/covers/hades.jpg";
+import witcher3Cover from "../assets/covers/witcher3.jpg";
+import bloodborneCover from "../assets/covers/bloodborne.jpg";
+import botwCover from "../assets/covers/botw.jpg";
+import persona5Cover from "../assets/covers/persona5.jpg";
+import gow2018Cover from "../assets/covers/gow2018.jpg";
+import eldenringCover from "../assets/covers/eldenring.jpg";
+import bg3Cover from "../assets/covers/bg3.jpg";
+import hadesCover from "../assets/covers/hades.jpg";
 
 export const games: Game[] = [
   {
