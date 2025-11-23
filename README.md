@@ -1,16 +1,84 @@
-# React + Vite
+# GameLegacy - Interactive Gaming Timeline
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GameLegacy is a modern web application that celebrates a decade of exceptional video games from 2015 to 2025. This interactive platform showcases legendary games, allows users to discover new titles, manage favorites, and explore gaming trends.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Interactive Timeline**: Browse games organized by release year with filtering capabilities
+- **Random Discovery**: Let the app suggest random legendary games for you to explore
+- **Favorites System**: Save and manage your favorite games with a persistent favorites list
+- **Detailed Analysis**: Explore gaming trends, influential studios, and cultural evolution
+- **Responsive Design**: Fully responsive interface that works on all device sizes
+- **Modern UI**: Beautiful glass-morphism design with smooth animations
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 18 with TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v16 or higher)
+- pnpm (recommended) or npm
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/asvpxvivien/Games_legacy.git
+cd Games_legacy
+```
+
+2. Install dependencies:
+
+```bash
+pnpm install
+```
+
+### Development
+
+Start the development server:
+
+```bash
+pnpm dev
+```
+
+### Building for Production
+
+```bash
+pnpm build
+```
+
+### Preview Production Build
+
+```bash
+pnpm preview
+```
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── ui/
+│   └── custom/
+├── pages/
+├── contexts/
+├── data/
+├── hooks/
+├── lib/
+└── App.tsx
+```
+
+## Design Features
+
+- Glass-morphism UI design
+- Smooth animations and transitions
+- Responsive layout for all screen sizes
+- Dark theme with gradient accents
+- Interactive cards with hover effects
