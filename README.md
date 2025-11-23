@@ -1,4 +1,4 @@
-# GameLegacy - Interactive Gaming Timeline
+# Games_Legacy - Interactive Gaming Timeline
 
 Games_Legacy is a modern web application that celebrates a decade of exceptional video games from 2015 to 2025. This interactive platform showcases legendary games, allows users to discover new titles, manage favorites, and explore gaming trends.
 
